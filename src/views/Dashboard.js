@@ -1,6 +1,10 @@
 import React from "react";
 import ChartistGraph from "react-chartist";
 // react-bootstrap components
+//Plan 
+//Make a to do section
+//stats
+//if possible show calendar keep bar at the top`
 import {
   Badge,
   Button,

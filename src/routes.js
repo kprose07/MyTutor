@@ -28,7 +28,7 @@ const dashboardRoutes = [
   {
     upgrade: true,
     path: "/upgrade",
-    name: "Upgrade to PRO",
+    name: "Visit JSU",
     icon: "nc-icon nc-alien-33",
     component: Upgrade,
     layout: "/admin"
@@ -42,42 +42,21 @@ const dashboardRoutes = [
   },
   {
     path: "/user",
-    name: "User Profile",
+    name: "Profile",
     icon: "nc-icon nc-circle-09",
     component: UserProfile,
     layout: "/admin"
   },
   {
     path: "/table",
-    name: "Table List",
+    name: "Find Tutor",
     icon: "nc-icon nc-notes",
     component: TableList,
     layout: "/admin"
   },
   {
-    path: "/typography",
-    name: "Typography",
-    icon: "nc-icon nc-paper-2",
-    component: Typography,
-    layout: "/admin"
-  },
-  {
-    path: "/icons",
-    name: "Icons",
-    icon: "nc-icon nc-atom",
-    component: Icons,
-    layout: "/admin"
-  },
-  {
-    path: "/maps",
-    name: "Maps",
-    icon: "nc-icon nc-pin-3",
-    component: Maps,
-    layout: "/admin"
-  },
-  {
     path: "/notifications",
-    name: "Notifications",
+    name: "Messages",
     icon: "nc-icon nc-bell-55",
     component: Notifications,
     layout: "/admin"
